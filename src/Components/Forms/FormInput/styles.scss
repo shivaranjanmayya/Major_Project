@@ -1,0 +1,36 @@
+.btn{
+    display: block;
+    width: 100%;
+    font-size: 15px;
+    line-height: 1;
+    font-weight: 200;
+    color: white;
+    background: rgb(74, 28, 160);
+    padding: 10px 0;
+    margin: 10px auto;
+    border:0;
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+
+.formRow{
+    margin: 10px auto;
+    .formInput{
+        display: block;
+        width: 100%;
+        font-size: 15px;
+        line-height: 1;
+        font-weight: 400;
+        text-align: left;
+        padding: 10px 5px;
+        margin: 10px auto;
+        border:1px solid #9c9e9e;
+        outline: none;
+        &::after{
+            margin-top:10px;
+        }
+        
+    }
+
+}

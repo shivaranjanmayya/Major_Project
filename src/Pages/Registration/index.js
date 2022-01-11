@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Signup from '../../Components/Signup';
 class Registration extends Component {
     constructor(props) {
         super(props)
@@ -7,12 +8,7 @@ class Registration extends Component {
         }
     }
     render() {
-        return (
-            <div>
-                <h1>Registration page is under construction</h1>
-
-            </div>
-        );
+        return <Signup/>
     }
 }
 
