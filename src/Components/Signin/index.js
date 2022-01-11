@@ -57,7 +57,7 @@ const configAuthWrapper={
                                    <Button onClick={signInWithFacebook}><i className="fab fa-facebook"></i>Login with Facebook</Button>
                                 </div>
                                 <div className='links'>
-                                    <Link to="/recovery">Forgot Password</Link>
+                                    <Link to="/recovery">Forgot Password?</Link>
 
                                 </div>
                             </div>
